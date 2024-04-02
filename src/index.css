@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  overflow-x: hidden;
+}
+
+.bg {
+  background: url("https://images.pexels.com/photos/7991661/pexels-photo-7991661.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-size: cover;
+  background-position: center;
+}
+
+.customFont {
+  font-family: "Roboto";
+}
+.overlay {
+  background-color: rgba(0, 0, 0, 0.9);
+}
+.borderButton {
+  border: 1px solid white;
+}
+.grayBg {
+  background-color: #e5e5e5;
+}
+
+.dealDiv4:hover .shopDiv4,
+.dealDiv3:hover .shopDiv3,
+.dealDiv2:hover .shopDiv2,
+.dealDiv1:hover .shopDiv1 {
+  opacity: 1;
+}
