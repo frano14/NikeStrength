@@ -18,9 +18,9 @@ const OurBestProduct = () => {
       </h2>
       <div className="flex justify-between items-center mt-12 mb-6">
         <p className="text-black font-medium text-xl bottomBorder">Bundles</p>
-        <butto className="bg-black cursor-pointer text-white sm:px-6 px-4 sm:py-3 py-[6px] rounded-3xl">
+        <button className="bg-black cursor-pointer text-white sm:px-6 px-4 sm:py-3 py-[6px] rounded-3xl">
           View All
-        </butto>
+        </button>
       </div>
       <div className=" grid grid-cols-4 gap-4">
         <div className="p-2 grayBorderButton">

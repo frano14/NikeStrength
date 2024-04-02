@@ -11,7 +11,18 @@ body {
   background-size: cover;
   background-position: center;
 }
+.innovationBg {
+  background: url("https://nikestrength.com/cdn/shop/files/F3_GRIND_BUMPER_PLATE_RATIO_DESKTOP_1920x.jpg?v=1696976748");
+  background-size: cover;
+  background-position: center;
+}
 
+.inputBg {
+  background-color: rgb(5, 5, 5);
+}
+.inputBg::placeholder {
+  color: #b2b2b2;
+}
 .customFont {
   font-family: "Roboto";
 }
@@ -27,8 +38,14 @@ body {
 .bottomBorder {
   border-bottom: 3px solid black;
 }
+.grayBottomBorderButton {
+  border-bottom: 1px solid #e5e5e5;
+}
 .grayBg {
   background-color: #e5e5e5;
+}
+.grayText {
+  color: #b2b2b2;
 }
 
 .dealDiv4:hover .shopDiv4,
@@ -36,4 +53,8 @@ body {
 .dealDiv2:hover .shopDiv2,
 .dealDiv1:hover .shopDiv1 {
   opacity: 1;
+}
+
+.slick-slide > div {
+  margin: 0 4px;
 }
