@@ -21,6 +21,12 @@ body {
 .borderButton {
   border: 1px solid white;
 }
+.grayBorderButton {
+  border: 1px solid #e5e5e5;
+}
+.bottomBorder {
+  border-bottom: 3px solid black;
+}
 .grayBg {
   background-color: #e5e5e5;
 }

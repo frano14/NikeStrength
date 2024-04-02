@@ -19,7 +19,7 @@ const Hero = () => {
     >
       <div className="overlay absolute w-[100vw] h-[100vh] top-0 left-0"></div>
       <div className="z-[3] text-white flex flex-col justify-center items-center">
-        <h1 className="customFont opacity-0 heroTitle md:text-[96px] sm:text-[84px] ss:text-[66px] xs:text-[54px] text-[44px] font-bold translate-y-[50px]">
+        <h1 className="customFont opacity-0 heroTitle md:text-[96px] sm:text-[84px] ss:text-[66px] xs:text-[54px] text-[44px] font-bold translate-y-[-50px]">
           BUILD YOUR GYM
         </h1>
         <p className="heroSubtitle opacity-0 sm:mb-8 mb-6 mb md:text-[22px] sm:text-[20px] ss:text-[16px] xs:text-[14px] text-[12px] translate-y-[50px]">

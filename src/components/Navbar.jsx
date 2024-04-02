@@ -50,7 +50,7 @@ const Navbar = () => {
             <li className="cursor-pointer">Kettlebells</li>
             <li className="cursor-pointer">Barbells & Plates</li>
           </ul>
-          <button className="borderButton bg-white text-black sm:px-6 px-4 sm:py-3 py-[6px] rounded-3xl hover:bg-transparent hoverBorder hover:text-white translate-x-[-100px] opacity-0">
+          <button className="borderButton bg-white text-black sm:px-6 px-4 sm:py-3 py-[6px] rounded-3xl hover:bg-transparent hoverBorder hover:text-white ">
             Shop Now
           </button>
           <img
