@@ -35,7 +35,7 @@ body {
 .grayBorderButton {
   border: 1px solid #e5e5e5;
 }
-.bottomBorder {
+.bottomBorder3px {
   border-bottom: 3px solid black;
 }
 .grayBottomBorderButton {
@@ -57,4 +57,22 @@ body {
 
 .slick-slide > div {
   margin: 0 4px;
+}
+
+@media (max-width: 619px) {
+  .item:nth-child(2) {
+    order: 3;
+  }
+
+  .item:nth-child(3) {
+    order: 2;
+  }
+
+  .item:nth-child(4) {
+    order: 4;
+  }
+
+  .item:nth-child(5) {
+    order: 5;
+  }
 }

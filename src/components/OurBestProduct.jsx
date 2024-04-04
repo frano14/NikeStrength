@@ -10,19 +10,21 @@ import buyImg from "../assets/checklist.png";
 const OurBestProduct = () => {
   return (
     <section
-      id="ourbestproduct"
+      id="ourbestproducts"
       className="sm:py-16 py-6 xl:max-w-[1200px] xl:px-0 sm:px-16 px-6 w-full m-auto"
     >
-      <h2 className="text-[36px] font-medium customFont">
+      <h2 className="text-[36px] font-medium customFont ss:mb-16 mb-8">
         OUR BEST PRODUCTS🚀
       </h2>
-      <div className="flex justify-between items-center mt-12 mb-6">
-        <p className="text-black font-medium text-xl bottomBorder">Bundles</p>
+      <div className="flex justify-between items-center mb-6">
+        <p className="text-black font-medium text-xl bottomBorder3px">
+          Bundles
+        </p>
         <button className="bg-black cursor-pointer text-white sm:px-6 px-4 sm:py-3 py-[6px] rounded-3xl">
           View All
         </button>
       </div>
-      <div className=" grid grid-cols-4 gap-4">
+      <div className=" grid sm:grid-cols-4 xs:grid-cols-2 grid-cols-1 gap-4">
         <div className="p-2 grayBorderButton">
           <div className="relative">
             <img

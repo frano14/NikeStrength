@@ -10,14 +10,14 @@ const Athletes = () => {
       className="sm:py-16 py-6 xl:max-w-[1200px] w-full xl:px-0 sm:px-16 px-6 m-auto flex justify-center items-center flex-col"
     >
       <p className="text-[16px]">PROVEN AND TESTED BY</p>
-      <h2 className="text-[36px] font-medium customFont mb-16">
+      <h2 className="text-[36px] font-medium customFont ss:mb-16 mb-8 text-center">
         CHAMPIONSHIP ATHLETES
       </h2>
-      <div className="w-full grid grid-cols-3 gap-8">
+      <div className="w-full grid xs:grid-cols-3 grid-cols-1 gap-8">
         <div>
           <div className=" relative">
             <img src={LeBron} alt="Hatz" />
-            <div className="overlay cursor-pointer absolute top-0 left-0 w-full h-full p-4 text-center text-white flex justify-center items-center opacity-0 hover:opacity-100">
+            <div className="overlay md:text-[18px] sm:text-[16px] ss:text-[14px] xs:text-[10px] text-[18px] cursor-pointer absolute top-0 left-0 w-full h-full sm:p-4 p-2  text-center text-white flex justify-center items-center opacity-0 hover:opacity-100">
               LeBron Raymone James Sr. is an American professional basketball
               player for the Los Angeles Lakers of the National Basketball
               Association.
@@ -35,7 +35,7 @@ const Athletes = () => {
         <div>
           <div className=" relative">
             <img src={Hatz} alt="Hatz" />
-            <div className="overlay cursor-pointer absolute top-0 left-0 w-full h-full p-4 text-center text-white flex justify-center items-center opacity-0 hover:opacity-100">
+            <div className="overlay cursor-pointer absolute top-0 left-0 w-full h-full  md:text-[18px] sm:text-[16px] ss:text-[14px] xs:text-[10px] text-[18px] sm:p-4 p-2 text-center text-white flex justify-center items-center opacity-0 hover:opacity-100">
               Beatriz Alexa Hatz is an American Paralympic athlete who competes
               in long jump and sprinting events at international track and field
               competitions.
@@ -53,7 +53,7 @@ const Athletes = () => {
         <div>
           <div className=" relative">
             <img src={Wilson} alt="Hatz" />
-            <div className="overlay cursor-pointer absolute top-0 left-0 w-full h-full p-4 text-center text-white flex justify-center items-center opacity-0 hover:opacity-100">
+            <div className="overlay cursor-pointer absolute top-0 left-0 w-full h-full  md:text-[18px] sm:text-[16px] ss:text-[14px] xs:text-[10px] text-[18px] sm:p-4 p-2 text-center text-white flex justify-center items-center opacity-0 hover:opacity-100">
               Russell Carrington Wilson is an American football quarterback for
               the Pittsburgh Steelers of the National Football League.
             </div>
